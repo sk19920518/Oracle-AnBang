@@ -15,11 +15,12 @@
 		95BFC4EE1BFEAB5700021E84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95BFC4EC1BFEAB5700021E84 /* LaunchScreen.storyboard */; };
 		95BFC4F91BFEAB5700021E84 /* __________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC4F81BFEAB5700021E84 /* __________Tests.m */; };
 		95BFC5041BFEAB5700021E84 /* __________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC5031BFEAB5700021E84 /* __________UITests.m */; };
-		95BFC5131BFEC11100021E84 /* Denglu.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC5121BFEC11100021E84 /* Denglu.m */; settings = {ASSET_TAGS = (); }; };
-		95BFC5161BFEC13C00021E84 /* Chaxun.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC5151BFEC13C00021E84 /* Chaxun.m */; settings = {ASSET_TAGS = (); }; };
-		95BFC5191BFEC17700021E84 /* Xiadan.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC5181BFEC17700021E84 /* Xiadan.m */; settings = {ASSET_TAGS = (); }; };
-		95BFC51C1BFEC1AB00021E84 /* Xuanze.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC51B1BFEC1AB00021E84 /* Xuanze.m */; settings = {ASSET_TAGS = (); }; };
-		95BFC51E1BFEE87600021E84 /* 110.png in Resources */ = {isa = PBXBuildFile; fileRef = 95BFC51D1BFEE87600021E84 /* 110.png */; settings = {ASSET_TAGS = (); }; };
+		95BFC5131BFEC11100021E84 /* Denglu.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC5121BFEC11100021E84 /* Denglu.m */; };
+		95BFC5161BFEC13C00021E84 /* Chaxun.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC5151BFEC13C00021E84 /* Chaxun.m */; };
+		95BFC5191BFEC17700021E84 /* Xiadan.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC5181BFEC17700021E84 /* Xiadan.m */; };
+		95BFC51C1BFEC1AB00021E84 /* Xuanze.m in Sources */ = {isa = PBXBuildFile; fileRef = 95BFC51B1BFEC1AB00021E84 /* Xuanze.m */; };
+		D218E6DE1C02C37A007C3675 /* AFNetworking in Resources */ = {isa = PBXBuildFile; fileRef = D218E6DD1C02C37A007C3675 /* AFNetworking */; };
+		D218E6E01C02C3A7007C3675 /* SBJSON in Resources */ = {isa = PBXBuildFile; fileRef = D218E6DF1C02C3A7007C3675 /* SBJSON */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,7 +65,8 @@
 		95BFC5181BFEC17700021E84 /* Xiadan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xiadan.m; sourceTree = "<group>"; };
 		95BFC51A1BFEC1AB00021E84 /* Xuanze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Xuanze.h; sourceTree = "<group>"; };
 		95BFC51B1BFEC1AB00021E84 /* Xuanze.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Xuanze.m; sourceTree = "<group>"; };
-		95BFC51D1BFEE87600021E84 /* 110.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 110.png; sourceTree = "<group>"; };
+		D218E6DD1C02C37A007C3675 /* AFNetworking */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AFNetworking; sourceTree = "<group>"; };
+		D218E6DF1C02C3A7007C3675 /* SBJSON */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SBJSON; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,24 +117,13 @@
 		95BFC4DD1BFEAB5700021E84 /* 安邦盟信线上订单系统 */ = {
 			isa = PBXGroup;
 			children = (
-				95BFC4E11BFEAB5700021E84 /* AppDelegate.h */,
-				95BFC4E21BFEAB5700021E84 /* AppDelegate.m */,
-				95BFC4E41BFEAB5700021E84 /* ViewController.h */,
-				95BFC4E51BFEAB5700021E84 /* ViewController.m */,
+				D218E6E21C02CC4B007C3675 /* view */,
+				D218E6E11C02CC30007C3675 /* SDK */,
 				95BFC4E71BFEAB5700021E84 /* Main.storyboard */,
 				95BFC4EA1BFEAB5700021E84 /* Assets.xcassets */,
 				95BFC4EC1BFEAB5700021E84 /* LaunchScreen.storyboard */,
 				95BFC4EF1BFEAB5700021E84 /* Info.plist */,
 				95BFC4DE1BFEAB5700021E84 /* Supporting Files */,
-				95BFC5111BFEC11100021E84 /* Denglu.h */,
-				95BFC5121BFEC11100021E84 /* Denglu.m */,
-				95BFC5141BFEC13C00021E84 /* Chaxun.h */,
-				95BFC5151BFEC13C00021E84 /* Chaxun.m */,
-				95BFC5171BFEC17700021E84 /* Xiadan.h */,
-				95BFC5181BFEC17700021E84 /* Xiadan.m */,
-				95BFC51A1BFEC1AB00021E84 /* Xuanze.h */,
-				95BFC51B1BFEC1AB00021E84 /* Xuanze.m */,
-				95BFC51D1BFEE87600021E84 /* 110.png */,
 			);
 			path = "安邦盟信线上订单系统";
 			sourceTree = "<group>";
@@ -161,6 +152,34 @@
 				95BFC5051BFEAB5700021E84 /* Info.plist */,
 			);
 			path = "安邦盟信线上订单系统UITests";
+			sourceTree = "<group>";
+		};
+		D218E6E11C02CC30007C3675 /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				D218E6DD1C02C37A007C3675 /* AFNetworking */,
+				D218E6DF1C02C3A7007C3675 /* SBJSON */,
+			);
+			name = SDK;
+			sourceTree = "<group>";
+		};
+		D218E6E21C02CC4B007C3675 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				95BFC4E11BFEAB5700021E84 /* AppDelegate.h */,
+				95BFC4E21BFEAB5700021E84 /* AppDelegate.m */,
+				95BFC4E41BFEAB5700021E84 /* ViewController.h */,
+				95BFC4E51BFEAB5700021E84 /* ViewController.m */,
+				95BFC5111BFEC11100021E84 /* Denglu.h */,
+				95BFC5121BFEC11100021E84 /* Denglu.m */,
+				95BFC5141BFEC13C00021E84 /* Chaxun.h */,
+				95BFC5151BFEC13C00021E84 /* Chaxun.m */,
+				95BFC5171BFEC17700021E84 /* Xiadan.h */,
+				95BFC5181BFEC17700021E84 /* Xiadan.m */,
+				95BFC51A1BFEC1AB00021E84 /* Xuanze.h */,
+				95BFC51B1BFEC1AB00021E84 /* Xuanze.m */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +288,8 @@
 				95BFC4EE1BFEAB5700021E84 /* LaunchScreen.storyboard in Resources */,
 				95BFC4EB1BFEAB5700021E84 /* Assets.xcassets in Resources */,
 				95BFC4E91BFEAB5700021E84 /* Main.storyboard in Resources */,
-				95BFC51E1BFEE87600021E84 /* 110.png in Resources */,
+				D218E6E01C02C3A7007C3675 /* SBJSON in Resources */,
+				D218E6DE1C02C37A007C3675 /* AFNetworking in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -526,6 +546,7 @@
 				95BFC50A1BFEAB5700021E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95BFC50B1BFEAB5700021E84 /* Build configuration list for PBXNativeTarget "安邦盟信线上订单系统Tests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +555,7 @@
 				95BFC50D1BFEAB5700021E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		95BFC50E1BFEAB5700021E84 /* Build configuration list for PBXNativeTarget "安邦盟信线上订单系统UITests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +564,7 @@
 				95BFC5101BFEAB5700021E84 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
