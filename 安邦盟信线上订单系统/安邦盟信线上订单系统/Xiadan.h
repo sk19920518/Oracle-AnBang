@@ -10,4 +10,9 @@
 
 @interface Xiadan : UIViewController
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *saomiao;
+- (IBAction)saomiao:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *xiadan;
+- (IBAction)xiadan:(id)sender;
+
 @end
