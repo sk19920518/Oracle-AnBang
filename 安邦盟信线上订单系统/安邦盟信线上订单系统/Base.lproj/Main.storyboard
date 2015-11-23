@@ -314,8 +314,53 @@
                                     <constraint firstAttribute="height" constant="128" id="zn7-jy-ofr"/>
                                 </constraints>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jy-mo-qgk">
+                                <rect key="frame" x="12" y="387" width="143" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="GPP-Bl-QPr"/>
+                                    <constraint firstAttribute="width" constant="143" id="vyf-ro-wSc"/>
+                                </constraints>
+                                <state key="normal" title="选择商品添加">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="bk3-FQ-rdQ" kind="push" id="OD1-Ov-7dm"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dk-eD-oIF">
+                                <rect key="frame" x="165" y="387" width="143" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="143" id="3kp-8U-i36"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="fWK-9F-ajI"/>
+                                    <constraint firstAttribute="height" constant="30" id="ww9-ev-dsQ"/>
+                                </constraints>
+                                <state key="normal" title="扫描商品条形码添加">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="saomiao:" destination="FGL-a1-Z84" eventType="touchUpInside" id="zmd-0Z-tOn"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxI-a5-fnQ">
+                                <rect key="frame" x="12" y="518" width="296" height="30"/>
+                                <animations/>
+                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="p9d-cY-fUD"/>
+                                </constraints>
+                                <state key="normal" title="下单">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="xiadan:" destination="FGL-a1-Z84" eventType="touchUpInside" id="61l-2G-fRf"/>
+                                </connections>
+                            </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="616-To-9Ff">
-                                <rect key="frame" x="20" y="242" width="280" height="128"/>
+                                <rect key="frame" x="20" y="220" width="280" height="128"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="商品名称:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cWM-cX-eVr">
                                         <rect key="frame" x="25" y="15" width="73" height="21"/>
@@ -396,62 +441,30 @@
                                     <constraint firstItem="MaQ-Ck-Mn3" firstAttribute="width" secondItem="qSr-9t-ka2" secondAttribute="width" id="yeG-7D-LTA"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Jy-mo-qgk">
-                                <rect key="frame" x="12" y="387" width="143" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="选择商品添加">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <connections>
-                                    <segue destination="bk3-FQ-rdQ" kind="push" id="OD1-Ov-7dm"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3dk-eD-oIF">
-                                <rect key="frame" x="165" y="387" width="143" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="扫描商品条形码添加">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dxI-a5-fnQ">
-                                <rect key="frame" x="12" y="518" width="296" height="30"/>
-                                <animations/>
-                                <color key="backgroundColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="p9d-cY-fUD"/>
-                                </constraints>
-                                <state key="normal" title="下单">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="M6R-sC-cAe" firstAttribute="top" secondItem="qtz-KO-JQD" secondAttribute="bottom" constant="15" id="0ZZ-J0-YKU"/>
-                            <constraint firstItem="616-To-9Ff" firstAttribute="top" secondItem="M6R-sC-cAe" secondAttribute="bottom" constant="35" id="0sj-t3-wTu"/>
+                            <constraint firstItem="616-To-9Ff" firstAttribute="top" secondItem="M6R-sC-cAe" secondAttribute="bottom" constant="13" id="0sj-t3-wTu"/>
+                            <constraint firstAttribute="trailing" secondItem="3dk-eD-oIF" secondAttribute="trailing" constant="12" id="2Vg-Q7-ybb"/>
                             <constraint firstItem="616-To-9Ff" firstAttribute="centerX" secondItem="M6R-sC-cAe" secondAttribute="centerX" id="8vn-mA-aav"/>
                             <constraint firstItem="NOd-KI-8cB" firstAttribute="top" secondItem="dxI-a5-fnQ" secondAttribute="bottom" constant="51" id="AIW-SJ-Ll1"/>
+                            <constraint firstItem="1Jy-mo-qgk" firstAttribute="leading" secondItem="SwP-am-GIw" secondAttribute="leading" constant="12" id="B0h-0d-wBu"/>
+                            <constraint firstItem="3dk-eD-oIF" firstAttribute="leading" secondItem="1Jy-mo-qgk" secondAttribute="trailing" constant="10" id="BBp-aU-gf5"/>
                             <constraint firstAttribute="trailingMargin" secondItem="dxI-a5-fnQ" secondAttribute="trailing" constant="-4" id="E7P-UP-6U5"/>
-                            <constraint firstItem="3dk-eD-oIF" firstAttribute="centerY" secondItem="1Jy-mo-qgk" secondAttribute="centerY" id="Eio-rH-Y7y"/>
-                            <constraint firstItem="dxI-a5-fnQ" firstAttribute="top" secondItem="1Jy-mo-qgk" secondAttribute="bottom" constant="101" id="H6h-vg-MJG"/>
-                            <constraint firstItem="3dk-eD-oIF" firstAttribute="leading" secondItem="1Jy-mo-qgk" secondAttribute="trailing" constant="10" id="KK6-LH-Zsq"/>
                             <constraint firstItem="M6R-sC-cAe" firstAttribute="leading" secondItem="SwP-am-GIw" secondAttribute="leading" constant="20" id="OGo-4R-rOd"/>
                             <constraint firstItem="dxI-a5-fnQ" firstAttribute="leading" secondItem="SwP-am-GIw" secondAttribute="leadingMargin" constant="-4" id="RjO-h2-geP"/>
-                            <constraint firstItem="1Jy-mo-qgk" firstAttribute="leading" secondItem="SwP-am-GIw" secondAttribute="leadingMargin" constant="-4" id="Sxq-qj-4Lj"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="3dk-eD-oIF" secondAttribute="trailing" constant="-4" id="Tqd-48-K4P"/>
-                            <constraint firstItem="3dk-eD-oIF" firstAttribute="width" secondItem="1Jy-mo-qgk" secondAttribute="width" id="VbE-8i-fVW"/>
                             <constraint firstItem="qtz-KO-JQD" firstAttribute="leading" secondItem="SwP-am-GIw" secondAttribute="leading" id="WDp-km-hbw"/>
-                            <constraint firstItem="3dk-eD-oIF" firstAttribute="height" secondItem="1Jy-mo-qgk" secondAttribute="height" id="Wpl-KA-vRp"/>
-                            <constraint firstItem="dxI-a5-fnQ" firstAttribute="top" secondItem="3dk-eD-oIF" secondAttribute="bottom" constant="101" id="Y1A-Bf-DWe"/>
-                            <constraint firstItem="3dk-eD-oIF" firstAttribute="leading" secondItem="1Jy-mo-qgk" secondAttribute="trailing" constant="10" id="dgb-pc-lF4"/>
+                            <constraint firstItem="3dk-eD-oIF" firstAttribute="top" secondItem="616-To-9Ff" secondAttribute="bottom" constant="39" id="bxO-to-FfN"/>
+                            <constraint firstItem="1Jy-mo-qgk" firstAttribute="top" secondItem="616-To-9Ff" secondAttribute="bottom" constant="39" id="cha-pG-zIY"/>
                             <constraint firstAttribute="trailing" secondItem="M6R-sC-cAe" secondAttribute="trailing" constant="20" id="fhs-6D-Nyd"/>
                             <constraint firstAttribute="trailing" secondItem="qtz-KO-JQD" secondAttribute="trailing" id="hQN-W2-nNT"/>
                             <constraint firstItem="qtz-KO-JQD" firstAttribute="top" secondItem="774-qd-ivc" secondAttribute="bottom" id="hZv-fP-5lm"/>
                             <constraint firstItem="616-To-9Ff" firstAttribute="height" secondItem="M6R-sC-cAe" secondAttribute="height" id="lcS-uY-zBW"/>
+                            <constraint firstItem="3dk-eD-oIF" firstAttribute="leading" secondItem="1Jy-mo-qgk" secondAttribute="trailing" constant="10" id="pCu-Pd-MwF"/>
                             <constraint firstItem="616-To-9Ff" firstAttribute="width" secondItem="M6R-sC-cAe" secondAttribute="width" id="rf4-GC-wwm"/>
+                            <constraint firstItem="3dk-eD-oIF" firstAttribute="centerY" secondItem="1Jy-mo-qgk" secondAttribute="centerY" id="tRX-UE-68O"/>
                             <constraint firstItem="NOd-KI-8cB" firstAttribute="top" secondItem="dxI-a5-fnQ" secondAttribute="bottom" constant="20" id="uTV-yi-nTl"/>
                         </constraints>
                         <variation key="default">
@@ -461,6 +474,10 @@
                         </variation>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="saomiao" destination="tRX-UE-68O" id="bYO-bE-Oxe"/>
+                        <outlet property="xiadan" destination="dxI-a5-fnQ" id="sxo-Xg-rvk"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5Cq-IH-2c7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
