@@ -291,13 +291,10 @@
 				95BFC4EE1BFEAB5700021E84 /* LaunchScreen.storyboard in Resources */,
 				95BFC4EB1BFEAB5700021E84 /* Assets.xcassets in Resources */,
 				95BFC4E91BFEAB5700021E84 /* Main.storyboard in Resources */,
-<<<<<<< HEAD
-				D218E6E01C02C3A7007C3675 /* SBJSON in Resources */,
-				D218E6DE1C02C37A007C3675 /* AFNetworking in Resources */,
-=======
-				95BFC51E1BFEE87600021E84 /* 110.png in Resources */,
-				950A80A11C02BADE002348A4 /* @2x_127.png in Resources */,
+
 >>>>>>> origin/master
+=======
+>>>>>>> anbang
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
