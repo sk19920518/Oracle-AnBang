@@ -34,4 +34,9 @@
 }
 */
 
+- (IBAction)saomiao:(id)sender {
+}
+
+- (IBAction)xiadan:(id)sender {
+}
 @end

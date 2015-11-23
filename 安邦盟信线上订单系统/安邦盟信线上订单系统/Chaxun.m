@@ -7,6 +7,7 @@
 //
 
 #import "Chaxun.h"
+#import "Xiadan.h"
 
 @interface Chaxun ()
 {
@@ -27,14 +28,36 @@
     
     width = [UIScreen mainScreen].bounds.size.width;
     height = [UIScreen mainScreen].bounds.size.height;
-
+    [self left];
+    [self right];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+   
 }
 
+-(void)left{
+    UIBarButtonItem *left = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"@2x_127.png"]style:UIBarButtonItemStylePlain target:self action:@selector(wode)];
+    self.navigationItem.leftBarButtonItem=left;
+
+}
+
+-(void)xiadan{
+    Xiadan *xiandan = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"xiadan"];
+    [self.navigationController pushViewController:xiandan animated:YES];
+}
+
+-(void)right{
+    UIBarButtonItem *right = [[UIBarButtonItem alloc]initWithImage:[UIImage imageNamed:@"@2x_127.png"]style:UIBarButtonItemStylePlain target:self action:@selector(xiadan)];
+    self.navigationItem.rightBarButtonItem = right;
+
+}
+
+-(void)wode{
+    NSLog(@"我的");
+      
+}
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section{
     return 30;//每个section高30
